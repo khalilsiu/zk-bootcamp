@@ -8,11 +8,11 @@ What is
 
 a) 4 + 4
 
-Answer: (4 + 4) mod 7 = 1
+Answer: (4 + 4) mod 7 = 1 mod 7
 
 b) 3 x 5
 
-Answer: (3 x 5) mod 7 =  1
+Answer: (3 x 5) mod 7 =  1 mod 7
 
 c) What is the inverse of 3
 
@@ -22,7 +22,7 @@ Answer: a^-1 = a^p-2 (mod p)
 
 = 243 mod 7
 
-= 5
+= 5 mod 7
 ### 2. For S = {0,1,2,3,4,5,6}
 ### Can we consider 'S' and the operation '+' to be a group?
 
@@ -36,10 +36,10 @@ For S to be considered a group, it has to satisfy the following
     For example: 3, 4, 6
     LHS: (3 + 4) mod 7 + 6 mod 7
     = 7 mod 7 + 6 mod 7
-    = 6
+    = 6 mod 7
     RHS: (3 + 6) mod 7 + 4 mod 7
     = 9 mod 7 + 4 mod 7
-    = 6
+    = 6 mod 7
 
 3.  Identity element
     There exists a unique element G, such that a + e = e + a = a
@@ -47,11 +47,11 @@ For S to be considered a group, it has to satisfy the following
 
 4. Inverse element
     It satisfies as each element has an inverse element
-    For example: (0 + 1) mod 7 = 1 = the identity element
+    For example: (0 + 1) mod 7 = 1 mod 7 = the identity element
 
 ### 3. What is -13 mod 5
 Since it is operation is anti-clockwise, -13 mod 5 
 
 = -3 mod 5 
 
-= 2
+= 2 mod 7
